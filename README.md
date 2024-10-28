@@ -1,5 +1,5 @@
 # Firewall AI
-
+work
 This work consists of building a system that acts as a firewall for detecting denial-of-service attacks. To perform these detections, Machine Learning and Deep Learning techniques have been employed to train models with these capabilities. In addition, a graphical interface has been implemented through which the traffic received by the system can be observed in real-time, as well as the predictions it makes about whether or not the traffic is an attack.
 
 Firstly, to train an artificial intelligence model, training data is required. A dataset has been chosen that contains different characteristics about a large number of network flows and a label indicating whether it is an attack, and if so, what type of attack it is. After choosing the dataset, a preprocessing stage is necessary, which consists of preparing the data so that the training phase is good. Once the data is ready, two models have been trained. The first is a neural network, specifically, a multilayer perceptron, and the second is a gradient boosting algorithm based on decision trees. After training, evaluating, and comparing them, it has been found that the gradient boosting model outperforms the neural network, achieving 99\% accuracy on the validation dataset, so this model has been used when launching the system.
